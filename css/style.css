@@ -1,0 +1,38 @@
+body {
+	line-height: 1em;
+	margin: 0 auto;
+	padding: 1em;
+}
+header {
+	background-color: #8DCFC8;
+	padding: 6em;
+	border-radius: 10px;
+	border-style: solid;
+}
+h1 {
+	font-size: 3em;
+}
+h1, h2, footer {
+	text-transform: uppercase;
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+.about {
+	max-width: 38em;
+}
+footer {
+	background-color: #8DCFC8;
+	padding: 1em;
+	border-radius: 10px;
+	border-style: solid;
+}
+ul {
+	list-style: none;
+	display: inline-flex;
+	margin-right: 2em;
+}
