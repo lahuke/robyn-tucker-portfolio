@@ -21,18 +21,24 @@ h3{
 }
 p {
 	text-align: center;
+	color: #6D7171;
+
 }
 .about {
 	max-width: 38em;
 }
-footer {
-	background-color: #8DCFC8;
-	padding: 1em;
-	border-radius: 10px;
-	border-style: solid;
-}
+
 ul {
 	list-style: none;
 	display: inline-flex;
-	margin-right: 2em;
+	margin-right: 3em;
+}
+a {
+	color: #0E0E0F;
+}
+a:hover {
+	color: teal;
+}
+.icon-background {
+	color: #EDEDF0;
 }
