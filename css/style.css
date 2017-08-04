@@ -2,15 +2,21 @@ body {
 	line-height: 1em;
 	margin: 0 auto;
 	padding: 1em;
+	background-color: black;
+	color: white;
+	text-align: center;
 }
-header {
-	background-color: #8DCFC8;
+.header {
+	background-image: url(http://i.imgur.com/AJNcbaJ.jpg);
+	background-size: cover;
 	padding: 6em;
-	border-radius: 10px;
-	border-style: solid;
+	overflow: auto;
+	height: 16em;
+	background-position: bottom;
+
 }
 h1 {
-	font-size: 3em;
+	font-size: em;
 }
 h1, h2, footer {
 	text-transform: uppercase;
@@ -22,19 +28,25 @@ h3{
 p {
 	text-align: center;
 	color: #6D7171;
+	color: white;
 
 }
-.about {
+.about, .samples {
 	max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2em
 }
-
+footer > p {
+	text-transform: none;
+}
 ul {
 	list-style: none;
 	display: inline-flex;
 	margin-right: 3em;
 }
 a {
-	color: #0E0E0F;
+	color: white;
 }
 a:hover {
 	color: teal;
