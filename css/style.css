@@ -1,3 +1,4 @@
+
 body {
 	line-height: 1em;
 	margin: 0 auto;
@@ -7,13 +8,16 @@ body {
 	font-family: 'Saira Condensed', sans-serif;
 	-webkit-font-smoothing: antialiased; 
 }
+
+/*Header Image*/
 .masthead {
 	background-image: url(http://i.imgur.com/AJNcbaJ.jpg);
 	background-size: cover;
 	padding: 6em 0;
 	overflow: auto;
 	height: 16em;
-	background-position: bottom;	
+	background-position: bottom;
+	border-top: 2em solid black;	
 }
 .masthead h1 {
 	text-transform: uppercase;
@@ -28,7 +32,6 @@ h2, footer {
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
 }
-
 p {
 	color: #6D7171;
 	color: white;
@@ -38,22 +41,47 @@ p {
 	max-width: 40em;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em;
+    padding: 1em;
 }
-footer > p {
-	text-transform: none;
+.about {
+	margin-top: 1em;
 }
 ul {
 	list-style: none;
+	display: block;
+	margin-right: 2.7em;
+}
+
+img {
+	padding: 1em;
+}
+/*footer*/
+footer > p {
+	text-transform: none;
+}
+hr {
+	max-width: 40em;
+}
+footer ul {
+	list-style: none;
 	display: inline-flex;
-	margin-right: 3em;
+	margin-right: 2.7em;
 }
 a {
 	color: white;
 }
+a:visited {
+	color: #FF1493;
+}
 a:hover {
 	color: teal;
+	transition: 0.5s;
 }
 .icon-background {
 	color: #EDEDF0;
+}
+@media only screen and (max-width: 768px){
+	.masthead {
+		padding: 3em 0;
+	}
 }
