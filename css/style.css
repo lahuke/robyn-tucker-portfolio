@@ -80,8 +80,3 @@ a:hover {
 .icon-background {
 	color: #EDEDF0;
 }
-@media only screen and (max-width: 768px){
-	.masthead {
-		padding: 3em 0;
-	}
-}
