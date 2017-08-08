@@ -16,17 +16,20 @@ body {
 	padding: 6em 0;
 	overflow: auto;
 	height: 16em;
-	background-position: bottom;
-	border-top: 2em solid black;	
+	background-position: center;
+	border-top: 2em solid black;
+	background-repeat: none;	
 }
 .masthead h1 {
 	text-transform: uppercase;
 	font-size: 4em;
+	line-height: 1em;
 }
 .masthead h3 {
 	font-weight: lighter;
 	font-size: 2.1em;
 	font-style: italic;
+	line-height: 1em;
 }
 h2, footer {
 	text-transform: uppercase;
@@ -79,4 +82,21 @@ a:hover {
 }
 .icon-background {
 	color: #EDEDF0;
+}
+/*Responsive*/
+@media only screen and (max-width: 450px)
+{ 
+.masthead {
+	padding: 3em 0;
+}
+.masthead h1 {
+	font-size: 3em;
+}
+.masthead h3 {
+	font-size: 1.5em;
+}
+ul {
+	display: inline-block;
+	margin: 0 auto;
+}
 }
