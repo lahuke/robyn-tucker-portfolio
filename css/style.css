@@ -57,6 +57,8 @@ ul {
 
 img {
 	padding: 1em;
+	width: 100%;
+	height: auto;
 }
 /*footer*/
 footer > p {
